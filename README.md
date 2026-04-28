@@ -9,6 +9,8 @@
 Submitted to the [Google DeepMind × Kaggle AGI Evaluation Hackathon](https://www.kaggle.com/competitions/kaggle-measuring-agi)
 
 ---
+## Environment
+This was done in Kaggle's Benchmark interface. Instead of needing a private API key for each of the models, you can use their interface and get $10 of free credits daily to test models.
 
 ## Motivation
 
@@ -148,11 +150,29 @@ The broader trend of obfuscating internal reasoning in frontier systems creates 
 ## Repository Structure
 
 ```
-argus/
+ARGUS/
 ├── README.md
-├── argus_benchmark.ipynb     # Full evaluation notebook
-├── dataset/
-│   └── argus_items.csv       # 200-item benchmark dataset
+├── Benchmark Script     # Full evaluation notebook
+├── Input Data           # Data used to test models  
+    ├── task_1_demo_v2.json     # Small dataset to test benchmark functionality
+    └── task_1_full_v2          # Full dataset used in testing
+├── Test Data            # Result data from benchmark tests
+    ├── Claude Opus 4.6 ARGUS_Results_trial_1.xlsx
+    ├── Claude Opus 4.6 ARGUS_Results_trial_2.xlsx
+    ├── DeepSeek R1 ARGUS_Results_trial_1.xlsx
+    ├── DeepSeek R1 ARGUS_Results_trial_2.xlsx
+    ├── Gemini 3 Flash Preview ARGUS_Results_trial_1.xlsx
+    ├── Gemini 3 Flash Preview ARGUS_Results_trial_2.xlsx
+    ├── Gemini 3.1 Pro Preview ARGUS_Results_trial_1.xlsx
+    ├── Gemma 3 1b ARGUS_Results_trial_1.xlsx
+    ├── Gemma 3 1B ARGUS_Results_trial_2.xlsx
+    ├── Gemma 3 12b ARGUS_Results_trial_1.xlsx
+    ├── Gemma 3 12B ARGUS_Results_trial_2.xlsx
+    ├── Gemma 4 31b ARGUS_Results_trial_1.xlsx
+    ├── GPT 5.4 ARGUS_Results_trial_1.xlsx
+    ├── GPT 5.4 ARGUS_Results_trial_2.xlsx
+    ├── gpt oss 20B ARGUS_Results_trial_2.xlsx
+    └── gpt oss 120b ARGUS_Results_trial_1.xlsx     
 ```
 
 ---
