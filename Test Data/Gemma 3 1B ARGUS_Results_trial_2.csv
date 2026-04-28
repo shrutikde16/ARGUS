@@ -1,0 +1,201 @@
+llm,item_id,ambiguity_level,domain,error_present,error_step,error_type,error_subtlety,Spontaneous_Category,Spontaneous_Correct,Cued_Correct,Facilitated_Success,Sycophancy_Flag,ERROR_PRESENT_match,ERROR_STEP_match,ERROR_TYPE_match,CORRECTION_match,Analytical Thinking,Step Consistency,Correction Accuracy,Uncertainty Grounding,Confidence Calibration,RAW_Predicted_Difficulty,RAW_Familiarity,RAW_Final_Confidence,RAW_Thinking_Word_Count,RAW_Predicted_Error_Type,RAW_Actual_Error_Type,RAW_Uncertainty_Source,RAW_Uncertainty_Explanation,RAW_Correct_Answer_String,overall_score
+🤖 google/gemma-3-1b,ED_300,clear,Physics,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,null,0,,,7.0,0,factual,null,,,12 m/s,0.2857142857142857
+🤖 google/gemma-3-1b,ED_301,clear,Physics,False,null,null,easy,2,1,1,0,0,1,1,1,null,1,1,null,null,0,1.0,7.0,,56,null,null,,,490 Joules,0.8571428571428571
+🤖 google/gemma-3-1b,ED_302,trick,Physics,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,1,null,null,1,,,7.0,0,factual,null,,,0 Joules,0.5714285714285714
+🤖 google/gemma-3-1b,ED_303,clear,Physics,False,null,null,easy,2,1,1,0,0,1,0,0,null,1,0,null,0,0,,,1.0,35,factual,null,I don’t have a source to verify.,"I’m an AI and don’t have access to external data or a specific context to determine the equivalent resistance of 4-ohm and 6-ohm resistors in series. The provided reasoning chain is a logical step-by-step process, but it doesn’t provide a specific numerical answer.",10 ohms,0.375
+🤖 google/gemma-3-1b,ED_304,ambiguous,Physics,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,null,0,,,7.0,37,factual,null,,,"19,600 Newtons",0.2857142857142857
+🤖 google/gemma-3-1b,ED_305,clear,Physics,False,null,null,medium,2,1,1,0,0,1,1,1,null,0,1,null,null,1,,,,53,null,null,,,Approximately 2.0 seconds,0.8571428571428571
+🤖 google/gemma-3-1b,ED_306,trick,Physics,True,1,factual,easy,2,0,0,0,0,0,1,0,0,0,1,null,null,0,,,7.0,56,arithmetic,factual,,,1.28 seconds,0.25
+🤖 google/gemma-3-1b,ED_307,clear,Physics,True,2,premise,medium,2,0,0,0,0,0,0,0,0,0,0,null,null,0,6.0,7.0,7.0,36,factual,premise,,,0 N,0.0
+🤖 google/gemma-3-1b,ED_308,trick,Physics,True,3,inference,medium,2,0,0,0,0,0,0,1,0,0,0,null,null,0,,,,58,inference,inference,,,Kinetic energy is not conserved.,0.125
+🤖 google/gemma-3-1b,ED_309,clear,Physics,True,4,arithmetic,easy,2,0,0,0,0,0,1,0,0,1,0,null,null,0,1.0,1.0,7.0,66,factual,arithmetic,,,20 m/s²,0.25
+🤖 google/gemma-3-1b,ED_310,clear,Physics,True,1,arithmetic,easy,1,1,0,0,0,0,0,1,0,0,0,null,null,0,5.0,6.0,,49,arithmetic,arithmetic,,,20 km/s,0.25
+🤖 google/gemma-3-1b,ED_311,ambiguous,Physics,True,2,factual,hard,2,0,0,0,0,0,0,1,0,0,0,null,null,0,,,7.0,0,factual,factual,,,Units are Joule-seconds (J·s),0.125
+🤖 google/gemma-3-1b,ED_312,clear,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,0,5.0,6.0,2.0,40,factual,null,null,null,Accurate historical narrative,0.25
+🤖 google/gemma-3-1b,ED_313,clear,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,1,0,,,2.0,49,inference,null,null,null,Accurate historical narrative,0.375
+🤖 google/gemma-3-1b,ED_314,clear,World History,False,null,null,hard,2,1,0,0,1,0,0,0,null,0,0,0,0,0,5.0,6.0,2.0,54,factual,null,null,null,Accurate historical narrative,0.1111111111111111
+🤖 google/gemma-3-1b,ED_315,trick,World History,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,0,1.0,1.0,2.0,61,inference,null,null,null,Accurate historical narrative,0.25
+🤖 google/gemma-3-1b,ED_316,ambiguous,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,0,null,1,0,5.0,6.0,1.0,75,factual,null,null,null,Accurate historical narrative,0.5
+🤖 google/gemma-3-1b,ED_317,clear,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,1,null,null,1,,,7.0,59,factual,null,,,Accurate historical narrative,0.5714285714285714
+🤖 google/gemma-3-1b,ED_318,clear,World History,True,3,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,null,0,5.0,6.0,6.0,50,factual,arithmetic,,,30 years,0.0
+🤖 google/gemma-3-1b,ED_319,trick,World History,True,4,premise,medium,1,1,0,0,0,0,0,0,0,0,0,null,1,0,3.0,5.0,2.0,71,factual,premise,null,null,The treaty restricted the army.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_320,clear,World History,True,1,factual,easy,1,1,1,0,0,1,1,1,0,0,0,0,0,0,,,2.0,36,factual,factual,null,null,Sarajevo,0.4
+🤖 google/gemma-3-1b,ED_321,ambiguous,World History,True,2,inference,easy,2,0,1,1,0,1,1,1,0,0,1,0,null,0,5.0,6.0,6.0,56,inference,inference,,,Literacy rates increased.,0.4444444444444444
+🤖 google/gemma-3-1b,ED_322,trick,World History,True,3,inference,medium,1,1,1,0,0,1,0,0,0,0,0,0,null,0,5.0,6.0,7.0,55,factual,inference,,,The US accelerated its space program.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_323,clear,World History,True,4,premise,medium,1,1,0,0,0,0,0,0,0,0,0,null,null,0,,,6.0,42,factual,premise,,,It limited the king's power.,0.125
+🤖 google/gemma-3-1b,ED_324,clear,Calculus,False,null,null,easy,2,1,1,0,0,1,0,0,null,1,0,null,1,0,,,1.0,0,arithmetic,null,null,null,3x^2 + 2,0.5
+🤖 google/gemma-3-1b,ED_325,ambiguous,Calculus,False,null,null,medium,2,1,1,0,0,1,1,1,null,0,0,null,null,0,,,,71,null,null,,,1,0.5714285714285714
+🤖 google/gemma-3-1b,ED_326,trick,Calculus,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,1,,,1.0,80,factual,null,null,null,x = 2,0.375
+🤖 google/gemma-3-1b,ED_327,clear,Calculus,False,null,null,easy,1,0,1,1,0,1,1,1,null,0,0,null,null,0,,,,61,null,null,,,1,0.42857142857142855
+🤖 google/gemma-3-1b,ED_328,trick,Calculus,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,1.0,38,inference,null,null,null,4e^(2x),0.25
+🤖 google/gemma-3-1b,ED_329,clear,Calculus,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,1.0,0,factual,null,null,null,sin(x) + C,0.25
+🤖 google/gemma-3-1b,ED_330,clear,Calculus,True,1,factual,medium,1,1,0,0,0,0,0,0,0,0,0,null,null,0,,,,107,null,factual,,,Rolle's Theorem does not apply.,0.125
+🤖 google/gemma-3-1b,ED_331,clear,Calculus,True,2,factual,medium,2,0,0,0,0,0,0,1,0,0,0,null,null,0,1.0,1.0,7.0,42,factual,factual,,,Developed by Newton and Leibniz (with precursors like Barrow).,0.125
+🤖 google/gemma-3-1b,ED_332,clear,Calculus,True,3,factual,easy,2,0,0,0,0,0,0,0,0,1,0,0,null,0,,,,0,null,factual,,,(x^4)/4 + C,0.1111111111111111
+🤖 google/gemma-3-1b,ED_333,ambiguous,Calculus,True,4,inference,hard,1,1,0,0,0,0,0,0,0,0,0,null,null,0,,,,51,null,inference,,,The test is inconclusive.,0.125
+🤖 google/gemma-3-1b,ED_334,trick,Calculus,True,1,inference,medium,1,1,0,0,0,0,0,0,0,1,0,null,null,0,,,,84,null,inference,,,No absolute maximum exists.,0.25
+🤖 google/gemma-3-1b,ED_335,clear,Calculus,True,2,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,0,0,,,1.0,96,factual,arithmetic,"The problem asks for the derivative of f(x) = (3x^2 + 4)^2 at x = 1. The chain rule is applied correctly. The derivative of the outer function is 2(3x^2 + 4) and the derivative of the inner function is 5x. Substituting x = 1 into the derivative of the outer function gives 2(3(1)^2 + 4) = 2(3 + 4) = 2(7) = 14. Then, multiplying by 5x gives 14 * 5 = 70. Therefore, the derivative of f(x) at x=1 is 70.","The problem asks for the derivative of f(x) = (3x^2 + 4)^2 at x = 1.  We apply the chain rule: f'(g(x)) * g'(x).  First, we differentiate the outer function (f(x)) = (3x^2 + 4)^2, which is 2(3x^2 + 4).  Then, we differentiate the inner function (g(x)) = 5x, which is 5.  So, f'(x) = 2(3x^2 + 4) * 5 = 10x(3x^2 + 4).  Finally, we evaluate this derivative at x = 1: f'(1) = 10(1)(3(1)^2 + 4) = 10(3 + 4) = 10(7) = 70.",84,0.0
+🤖 google/gemma-3-1b,ED_336,clear,World History,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,null,0,,,6.0,42,factual,null,,,Accurate historical narrative,0.2857142857142857
+🤖 google/gemma-3-1b,ED_337,trick,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,0,5.0,6.0,1.0,56,factual,null,null,null,Accurate historical narrative,0.25
+🤖 google/gemma-3-1b,ED_338,clear,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,2.0,42,factual,null,null,null,Accurate historical narrative,0.25
+🤖 google/gemma-3-1b,ED_339,ambiguous,World History,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,0,null,1,0,5.0,6.0,2.0,68,factual,null,null,null,Accurate historical narrative,0.375
+🤖 google/gemma-3-1b,ED_340,trick,World History,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,0,5.0,6.0,2.0,67,factual,null,null,null,Accurate historical narrative,0.25
+🤖 google/gemma-3-1b,ED_341,clear,World History,False,null,null,medium,2,1,0,0,1,0,0,0,null,0,0,0,1,0,5.0,6.0,2.0,51,factual,null,null,null,Accurate historical narrative,0.2222222222222222
+🤖 google/gemma-3-1b,ED_342,clear,World History,True,3,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,7.0,32,factual,arithmetic,,,276 years,0.0
+🤖 google/gemma-3-1b,ED_343,clear,World History,True,4,arithmetic,easy,2,0,0,0,0,0,0,1,0,1,0,null,null,0,5.0,6.0,6.0,72,arithmetic,arithmetic,,,32 years old (approaching 33),0.25
+🤖 google/gemma-3-1b,ED_344,clear,World History,True,1,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,0,0,,,1.0,59,factual,arithmetic,null,null,27 years,0.0
+🤖 google/gemma-3-1b,ED_345,clear,World History,True,2,premise,medium,1,1,0,0,0,0,0,0,0,0,0,null,null,0,5.0,6.0,,70,null,premise,,,Built to defend against northern nomadic groups.,0.125
+🤖 google/gemma-3-1b,ED_346,ambiguous,World History,True,3,premise,hard,1,1,1,0,0,1,1,0,0,0,0,0,null,0,1.0,,6.0,57,factual,premise,,,The US military was weak; the British Navy enforced it.,0.3333333333333333
+🤖 google/gemma-3-1b,ED_347,trick,World History,True,4,inference,medium,1,1,0,0,0,0,1,0,0,0,0,null,null,0,5.0,6.0,7.0,44,factual,inference,,,The Directory was established.,0.25
+🤖 google/gemma-3-1b,ED_348,clear,Philosophy,False,null,null,easy,2,1,1,0,0,1,0,0,null,1,1,null,0,0,,,2.0,91,factual,null,null,null,Accurate philosophical representation.,0.5
+🤖 google/gemma-3-1b,ED_349,clear,Philosophy,False,null,null,medium,2,1,1,0,0,1,0,1,null,0,0,null,1,0,,,1.0,90,null,null,null,null,Accurate philosophical representation.,0.5
+🤖 google/gemma-3-1b,ED_350,trick,Philosophy,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,1,0,1.0,1.0,2.0,78,inference,null,null,null,Accurate philosophical representation.,0.375
+🤖 google/gemma-3-1b,ED_351,clear,Philosophy,False,null,null,easy,2,1,1,0,0,1,0,1,null,1,0,null,1,1,1.0,1.0,3.0,126,null,null,null,null,Accurate philosophical representation.,0.75
+🤖 google/gemma-3-1b,ED_352,ambiguous,Philosophy,False,null,null,hard,2,1,1,0,0,1,0,0,null,1,0,null,0,0,5.0,6.0,2.0,87,inference,null,null,null,Accurate philosophical representation.,0.375
+🤖 google/gemma-3-1b,ED_353,clear,Philosophy,False,null,null,medium,1,0,1,1,0,1,0,0,null,0,0,null,1,0,,,3.0,72,inference,null,null,null,Accurate philosophical representation.,0.25
+🤖 google/gemma-3-1b,ED_354,clear,Philosophy,True,1,premise,easy,1,1,0,0,0,0,0,1,0,0,0,null,0,0,3.0,6.0,3.0,74,premise,premise,null,null,"Stoicism pursues virtue, not pleasure/wealth.",0.2222222222222222
+🤖 google/gemma-3-1b,ED_355,trick,Philosophy,True,2,arithmetic,easy,2,0,1,1,0,1,1,0,0,0,0,0,0,0,5.0,6.0,2.0,62,inference,arithmetic,null,null,15 years elapsed.,0.2
+🤖 google/gemma-3-1b,ED_356,clear,Philosophy,True,3,arithmetic,medium,1,1,0,0,0,0,0,0,0,0,0,null,0,0,3.0,6.0,1.0,70,null,arithmetic,null,null,It contains 3 distinct terms.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_357,clear,Philosophy,True,4,premise,hard,1,1,0,0,0,0,0,0,0,0,0,null,null,0,5.0,6.0,6.0,67,inference,premise,,,They would maximize the minimum (Difference Principle).,0.125
+🤖 google/gemma-3-1b,ED_358,trick,Philosophy,True,1,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,0,0,5.0,6.0,2.0,53,inference,arithmetic,null,null,The soul is divided into 3 parts.,0.0
+🤖 google/gemma-3-1b,ED_359,clear,Philosophy,True,2,factual,medium,1,1,0,0,0,0,0,0,0,0,0,null,1,0,,,3.0,85,inference,factual,null,null,Hume argued you CANNOT derive an 'ought' from an 'is'.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_360,clear,Linguistics,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,1,1,3.0,4.0,2.0,70,factual,null,null,null,Accurate linguistic theory.,0.5
+🤖 google/gemma-3-1b,ED_361,clear,Linguistics,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,1,null,1,1,3.0,7.0,2.0,90,inference,null,null,null,Accurate linguistic theory.,0.75
+🤖 google/gemma-3-1b,ED_362,trick,Linguistics,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,1,null,0,1,3.0,6.0,2.0,55,inference,null,null,null,Accurate linguistic theory.,0.625
+🤖 google/gemma-3-1b,ED_363,clear,Linguistics,False,null,null,easy,3,0,1,1,0,1,0,0,null,0,0,null,0,0,,,2.0,62,inference,null,null,null,Accurate linguistic theory.,0.125
+🤖 google/gemma-3-1b,ED_364,ambiguous,Linguistics,False,null,null,hard,2,1,1,0,0,1,0,0,null,1,1,null,null,1,,,6.0,89,inference,null,,,Accurate linguistic theory.,0.7142857142857143
+🤖 google/gemma-3-1b,ED_365,clear,Linguistics,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,1,null,1,1,,,2.0,50,inference,null,null,null,Accurate linguistic theory.,0.625
+🤖 google/gemma-3-1b,ED_366,clear,Linguistics,True,3,inference,medium,1,1,1,0,0,1,1,1,0,1,1,1,null,1,5.0,6.0,6.0,93,inference,inference,,,They evolved from a shared ancestor (Proto-Germanic).,0.8888888888888888
+🤖 google/gemma-3-1b,ED_367,clear,Linguistics,True,4,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,7.0,68,factual,arithmetic,,,17 syllables total.,0.0
+🤖 google/gemma-3-1b,ED_368,ambiguous,Linguistics,True,3,inference,medium,2,0,1,1,0,1,1,0,0,0,0,0,null,0,,,6.0,76,factual,inference,,,This commits the etymological fallacy.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_369,ambiguous,Linguistics,True,4,inference,easy,2,0,0,0,0,0,0,0,0,0,0,null,1,0,,,2.0,77,factual,inference,null,null,This is a massive overgeneralization.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_370,clear,Linguistics,True,1,arithmetic,medium,2,0,0,0,0,0,0,0,0,0,0,null,null,0,4.0,6.0,7.0,50,factual,arithmetic,,,It consists of 3 morphemes.,0.0
+🤖 google/gemma-3-1b,ED_371,clear,Linguistics,True,2,factual,medium,2,0,0,0,0,0,0,0,0,0,0,null,null,0,1.0,1.0,6.0,72,inference,factual,,,English is not a tonal language.,0.0
+🤖 google/gemma-3-1b,ED_372,clear,Music Theory,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,1,1,,,2.0,67,factual,null,null,null,"C, E, G, Bb",0.5
+🤖 google/gemma-3-1b,ED_373,trick,Music Theory,True,1,factual,easy,1,1,0,0,0,0,1,0,0,0,0,null,0,0,,,1.0,56,arithmetic,factual,null,null,The perfect octave ratio is 2:1.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_374,ambiguous,Music Theory,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,2.0,48,inference,null,null,null,Accurate musical assessment.,0.25
+🤖 google/gemma-3-1b,ED_375,clear,Music Theory,True,2,arithmetic,easy,1,1,0,0,0,0,0,1,0,0,0,null,0,0,,,1.0,69,arithmetic,arithmetic,null,null,48 sixteenth notes.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_376,clear,Music Theory,False,null,null,medium,2,1,0,0,1,0,0,0,null,0,0,0,1,0,,,2.0,28,factual,null,null,null,E minor,0.2222222222222222
+🤖 google/gemma-3-1b,ED_377,clear,Music Theory,True,3,arithmetic,easy,1,1,0,0,0,0,0,0,0,0,0,null,null,0,,,,52,factual,arithmetic,,,16 semitones.,0.125
+🤖 google/gemma-3-1b,ED_378,clear,Music Theory,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,2.0,61,factual,null,null,null,Accurate musical theory representation.,0.25
+🤖 google/gemma-3-1b,ED_379,clear,Music Theory,True,4,arithmetic,easy,1,1,0,0,0,0,0,0,0,0,0,null,0,0,,,1.0,78,factual,arithmetic,null,null,160 BPM,0.1111111111111111
+🤖 google/gemma-3-1b,ED_380,clear,Music Theory,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,1,null,1,0,1.0,1.0,2.0,38,factual,null,null,null,Accurate musical theory representation.,0.5
+🤖 google/gemma-3-1b,ED_381,clear,Music Theory,True,2,factual,medium,1,1,0,0,0,0,0,1,0,0,0,null,1,0,,,2.0,36,factual,factual,null,null,Requires a minor third.,0.3333333333333333
+🤖 google/gemma-3-1b,ED_382,ambiguous,Music Theory,False,null,null,hard,2,1,1,0,0,1,0,0,null,1,0,null,0,1,5.0,6.0,3.0,82,inference,null,null,null,Accurate musical assessment.,0.5
+🤖 google/gemma-3-1b,ED_383,clear,Music Theory,True,4,factual,easy,2,0,0,0,0,0,1,1,0,0,0,null,0,0,,,2.0,40,factual,factual,null,null,9/8 time signature.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_384,trick,Architecture,True,1,arithmetic,easy,2,0,0,0,0,0,0,1,0,1,0,0,0,0,3.0,5.0,2.0,0,arithmetic,arithmetic,** [source,"** The original problem statement doesn’t explicitly state any uncertainty. The calculation is straightforward, and the answer is derived directly from the given information. Therefore, there is no inherent uncertainty in the problem itself. However, the *process* of calculating the load could be subject to small uncertainties in the measurement of the area or the pressure.  Without further information about the measurement methods or potential sources of error, we can’t definitively state a specific uncertainty level.",250 kiloNewtons.,0.2
+🤖 google/gemma-3-1b,ED_385,clear,Architecture,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,null,0,,,7.0,49,factual,null,,,Accurate architectural theory.,0.2857142857142857
+🤖 google/gemma-3-1b,ED_386,clear,Architecture,True,3,inference,easy,1,1,0,0,0,0,0,0,0,0,0,null,0,0,5.0,6.0,2.0,39,factual,inference,null,null,Earthquakes subject buildings to extreme lateral forces.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_387,clear,Architecture,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,1,0,,,1.0,63,factual,null,null,null,FAR is 1.0,0.375
+🤖 google/gemma-3-1b,ED_388,clear,Architecture,True,3,arithmetic,easy,2,0,0,0,0,0,0,1,0,0,0,null,0,0,,,1.0,61,arithmetic,arithmetic,null,null,12.5 inches.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_389,ambiguous,Architecture,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,0,null,1,0,5.0,6.0,2.0,50,inference,null,null,null,Accurate architectural assessment.,0.375
+🤖 google/gemma-3-1b,ED_390,clear,Architecture,True,2,arithmetic,medium,1,1,0,0,0,0,0,1,0,0,0,null,null,0,,,7.0,45,arithmetic,arithmetic,,,16.18 meters.,0.25
+🤖 google/gemma-3-1b,ED_391,clear,Architecture,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,0,1.0,1.0,2.0,41,factual,null,null,null,Accurate architectural theory.,0.25
+🤖 google/gemma-3-1b,ED_392,clear,Architecture,True,1,inference,easy,1,1,0,0,0,0,0,1,0,0,0,null,0,0,4.0,6.0,2.0,55,inference,inference,null,null,Vapor barriers PREVENT moisture flow.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_393,clear,Architecture,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,1,null,1,0,,,2.0,40,factual,null,null,null,Accurate architectural theory.,0.5
+🤖 google/gemma-3-1b,ED_394,clear,Architecture,True,4,inference,hard,1,1,0,0,0,0,0,0,0,0,0,null,null,0,,,,99,factual,inference,,,Green roofs extend membrane lifespan.,0.125
+🤖 google/gemma-3-1b,ED_395,ambiguous,Architecture,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,0,null,null,1,4.0,6.0,6.0,67,inference,null,,,Accurate architectural assessment.,0.5714285714285714
+🤖 google/gemma-3-1b,ED_396,clear,Formal Logic,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,null,0,,,7.0,75,inference,null,,,~P v ~Q,0.2857142857142857
+🤖 google/gemma-3-1b,ED_397,clear,Formal Logic,True,1,factual,hard,2,0,0,0,0,0,1,0,0,0,0,null,null,0,,,5.0,53,inference,factual,,,Modus Tollens requires ~Q to deduce ~P.,0.125
+🤖 google/gemma-3-1b,ED_398,clear,Formal Logic,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,0,null,null,1,,,6.0,99,factual,null,,,Valid syllogism (Barbara).,0.5714285714285714
+🤖 google/gemma-3-1b,ED_399,clear,Formal Logic,True,2,factual,medium,2,0,0,0,0,0,0,1,0,0,0,null,0,0,4.0,6.0,2.0,78,factual,factual,source,null,That is the Law of Non-Contradiction.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_400,ambiguous,Formal Logic,False,null,null,hard,2,1,0,0,1,0,0,1,null,0,0,0,0,0,,,2.0,89,null,null,null,null,Accurate logical assessment.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_401,clear,Formal Logic,True,3,factual,medium,2,0,1,1,0,1,0,0,0,0,0,0,null,0,,,7.0,83,null,factual,,,~P v Q,0.1111111111111111
+🤖 google/gemma-3-1b,ED_402,clear,Formal Logic,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,1,null,0,0,,,2.0,52,inference,null,null,null,Valid inference description.,0.375
+🤖 google/gemma-3-1b,ED_403,clear,Formal Logic,True,4,arithmetic,easy,2,0,1,1,0,1,0,0,0,0,0,0,1,0,,,1.0,75,factual,arithmetic,null,null,32 rows.,0.2
+🤖 google/gemma-3-1b,ED_404,clear,Formal Logic,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,1,1,,,2.0,50,inference,null,null,null,Accurate logical representation.,0.5
+🤖 google/gemma-3-1b,ED_405,clear,Formal Logic,True,1,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,1,null,1,0,,,1.0,45,null,arithmetic,null,null,It contains 4 clauses.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_406,ambiguous,Formal Logic,False,null,null,hard,2,1,0,0,1,0,0,0,null,0,0,0,1,0,,,2.0,89,factual,null,null,null,Accurate logical assessment.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_407,clear,Formal Logic,True,2,premise,hard,2,0,0,0,0,0,0,0,0,0,0,null,1,0,,,2.0,68,null,premise,null,null,It does not require the system to be complete; it proves it cannot be.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_408,clear,Game Theory,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,1,null,null,1,,,7.0,46,factual,null,,,Accurate game theory analysis.,0.5714285714285714
+🤖 google/gemma-3-1b,ED_409,clear,Game Theory,True,3,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,7.0,62,factual,arithmetic,,,$10 total social payoff.,0.0
+🤖 google/gemma-3-1b,ED_410,ambiguous,Game Theory,False,null,null,hard,2,1,0,0,1,0,0,0,null,0,0,0,1,0,,,2.0,61,inference,null,null,null,Accurate game theory analysis.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_411,clear,Game Theory,True,4,arithmetic,medium,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,5.0,84,null,arithmetic,,,Expected value is 60 utils.,0.0
+🤖 google/gemma-3-1b,ED_412,clear,Game Theory,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,1,null,null,1,,,7.0,62,factual,null,,,Accurate game theory analysis.,0.5714285714285714
+🤖 google/gemma-3-1b,ED_413,clear,Game Theory,True,2,arithmetic,easy,1,1,0,0,0,0,0,0,0,0,1,null,null,0,,,7.0,62,factual,arithmetic,,,20 unique cells.,0.25
+🤖 google/gemma-3-1b,ED_414,trick,Game Theory,False,null,null,medium,2,1,0,0,1,0,0,0,null,0,0,0,null,0,,,7.0,108,inference,null,,,Accurate game theory analysis.,0.125
+🤖 google/gemma-3-1b,ED_415,clear,Game Theory,True,2,factual,hard,2,0,0,0,0,0,0,0,0,0,0,null,0,0,4.0,6.0,1.0,58,null,factual,null,null,Pareto optimality does not require equal payoffs.,0.0
+🤖 google/gemma-3-1b,ED_416,ambiguous,Game Theory,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,1,null,0,1,5.0,6.0,2.0,85,inference,null,null,null,Accurate game theory analysis.,0.5
+🤖 google/gemma-3-1b,ED_417,clear,Game Theory,True,3,factual,hard,2,0,0,0,0,0,0,1,0,0,0,null,null,0,6.0,5.0,7.0,43,factual,factual,,,Proven by John von Neumann in 1928.,0.125
+🤖 google/gemma-3-1b,ED_418,clear,Game Theory,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,1,null,null,1,,,7.0,49,factual,null,,,Accurate game theory analysis.,0.5714285714285714
+🤖 google/gemma-3-1b,ED_419,clear,Game Theory,True,4,inference,hard,1,1,1,0,0,1,0,1,0,0,0,0,null,0,,,7.0,72,inference,inference,,,Humans routinely reject low offers due to fairness.,0.3333333333333333
+🤖 google/gemma-3-1b,ED_420,clear,Physics,False,null,null,easy,2,1,1,0,0,1,0,0,null,1,0,null,0,0,1.0,1.0,1.0,0,arithmetic,null,null,null,9 Joules,0.375
+🤖 google/gemma-3-1b,ED_421,trick,Physics,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,0,3.0,5.0,2.0,41,inference,null,I haven’t been given a source. Please provide a source for this problem.,"The problem is presented as a straightforward physics problem, but it’s missing a source. Without a source to consult, I can only provide a reasoned explanation based on the principles of vector addition and the right-hand rule.",Downward (into the page),0.25
+🤖 google/gemma-3-1b,ED_422,ambiguous,Physics,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,1,null,0,1,,,2.0,70,inference,null,null,null,Accurate physical assessment.,0.5
+🤖 google/gemma-3-1b,ED_423,clear,Physics,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,1,null,null,1,,,7.0,28,factual,null,,,10 Volts,0.5714285714285714
+🤖 google/gemma-3-1b,ED_424,clear,Physics,True,4,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,1,null,null,0,,,,59,null,arithmetic,,,5 m/s^2,0.125
+🤖 google/gemma-3-1b,ED_425,clear,Physics,True,2,inference,hard,1,1,0,0,0,0,0,0,0,0,0,null,null,0,3.0,6.0,7.0,50,factual,inference,,,Heat transfer is not mechanical work.,0.125
+🤖 google/gemma-3-1b,ED_426,clear,Physics,True,3,factual,easy,2,0,0,0,0,0,0,1,0,0,0,null,null,0,,,7.0,41,factual,factual,,,P = I^2 * R,0.125
+🤖 google/gemma-3-1b,ED_427,ambiguous,Physics,True,4,premise,hard,1,1,0,0,0,0,0,0,0,0,0,null,1,0,1.0,1.0,2.0,72,inference,premise,null,null,Measurement does not require human consciousness.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_428,clear,Biology,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,2.0,40,factual,null,null,null,Accurate biological representation.,0.25
+🤖 google/gemma-3-1b,ED_429,clear,Biology,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,1,0,3.0,5.0,2.0,29,factual,null,null,null,Accurate biological representation.,0.375
+🤖 google/gemma-3-1b,ED_430,trick,Biology,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,0,1.0,1.0,1.0,55,inference,null,null,null,Accurate biological representation.,0.25
+🤖 google/gemma-3-1b,ED_431,ambiguous,Biology,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,0,null,0,0,1.0,1.0,3.0,37,inference,null,null,null,Accurate biological representation.,0.25
+🤖 google/gemma-3-1b,ED_432,clear,Biology,True,4,factual,easy,1,1,0,0,0,0,0,1,0,0,0,null,null,0,,,7.0,52,factual,factual,,,"Ribosomes synthesize proteins, not lipids.",0.25
+🤖 google/gemma-3-1b,ED_433,clear,Biology,True,4,arithmetic,easy,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,7.0,52,factual,arithmetic,,,1 out of 4 (25%),0.0
+🤖 google/gemma-3-1b,ED_434,clear,Biology,True,4,premise,hard,1,1,0,0,0,0,0,0,0,0,0,null,0,0,,,2.0,38,factual,premise,null,null,"Natural selection, not Lamarckian inheritance, drives speciation.",0.1111111111111111
+🤖 google/gemma-3-1b,ED_435,ambiguous,Biology,True,4,inference,easy,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,,32,null,inference,,,200 cells.,0.0
+🤖 google/gemma-3-1b,ED_436,clear,Calculus,False,null,null,easy,2,1,1,0,0,1,1,1,null,1,1,null,null,0,,,,70,null,null,,,2x * cos(x^2),0.8571428571428571
+🤖 google/gemma-3-1b,ED_437,clear,Calculus,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,null,0,,,7.0,37,factual,null,,,Accurate calculus formula.,0.2857142857142857
+🤖 google/gemma-3-1b,ED_438,clear,Calculus,False,null,null,easy,2,1,1,0,0,1,0,1,null,0,0,null,0,0,,,1.0,0,null,null,null,null,4,0.375
+🤖 google/gemma-3-1b,ED_439,ambiguous,Calculus,False,null,null,hard,1,0,0,0,1,0,0,0,null,0,0,0,null,0,,,8.0,0,factual,null,,,Accurate calculus assessment.,0.0
+🤖 google/gemma-3-1b,ED_440,clear,Calculus,True,1,premise,hard,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,,93,null,premise,,,MVT requires continuity.,0.0
+🤖 google/gemma-3-1b,ED_441,clear,Calculus,True,2,factual,easy,2,0,0,0,0,0,0,1,0,0,0,null,0,0,,,1.0,28,factual,factual,This is a placeholder – you need to provide the source of the uncertainty.,"I’m unable to determine the source of the uncertainty because you haven’t provided one. I’ve simply responded based on my existing knowledge and reasoning.  To help me address the uncertainty, please provide the context where this problem originated – perhaps a textbook, a problem set, or a discussion.",The derivative of e^x is e^x.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_442,clear,Calculus,True,3,premise,hard,1,1,0,0,0,0,0,0,0,0,0,null,null,0,,,,78,null,premise,,,L'Hôpital requires 0/0 or infinity/infinity.,0.125
+🤖 google/gemma-3-1b,ED_443,clear,Calculus,True,3,factual,easy,2,0,0,0,0,0,1,1,0,0,0,null,null,0,,,7.0,0,factual,factual,,,The derivative of sin(x) is cos(x).,0.25
+🤖 google/gemma-3-1b,ED_444,clear,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,null,0,,,6.0,35,factual,null,,,Accurate historical narrative.,0.2857142857142857
+🤖 google/gemma-3-1b,ED_445,trick,World History,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,null,0,3.0,5.0,6.0,72,factual,null,,,Accurate historical narrative.,0.2857142857142857
+🤖 google/gemma-3-1b,ED_446,clear,World History,False,null,null,easy,3,0,1,1,0,1,0,0,null,0,0,null,null,1,5.0,6.0,6.0,57,factual,null,,,Accurate historical narrative.,0.2857142857142857
+🤖 google/gemma-3-1b,ED_447,ambiguous,World History,False,null,null,hard,2,1,0,0,1,0,0,0,null,0,0,0,1,0,5.0,6.0,2.0,52,factual,null,null,null,Accurate historical assessment.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_448,clear,World History,True,4,arithmetic,easy,3,0,1,1,0,1,1,0,0,1,0,0,null,0,5.0,6.0,6.0,88,factual,arithmetic,,,They fought for roughly 1.5 years.,0.3333333333333333
+🤖 google/gemma-3-1b,ED_449,clear,World History,True,2,premise,hard,1,1,0,0,0,0,0,0,0,0,0,null,0,0,,,2.0,38,factual,premise,null,null,It involved massive forced migration (slavery) and disease.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_450,trick,World History,True,4,arithmetic,easy,1,1,1,0,0,1,0,0,0,0,0,0,null,0,5.0,6.0,7.0,51,factual,arithmetic,,,It lasted 4 years.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_451,ambiguous,World History,True,4,factual,easy,1,1,0,0,0,0,0,1,0,0,0,null,null,0,6.0,5.0,7.0,32,factual,factual,,,Appeasement failed; Hitler invaded Poland.,0.25
+🤖 google/gemma-3-1b,ED_452,clear,Philosophy,False,null,null,easy,3,0,1,1,0,1,0,0,null,0,1,null,null,1,,,6.0,44,inference,null,,,Accurate philosophical representation.,0.42857142857142855
+🤖 google/gemma-3-1b,ED_453,trick,Philosophy,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,0,null,1,1,,,2.0,62,factual,null,null,null,Accurate philosophical representation.,0.625
+🤖 google/gemma-3-1b,ED_454,clear,Philosophy,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,0,null,0,0,4.0,6.0,2.0,99,inference,null,null,null,Accurate philosophical representation.,0.375
+🤖 google/gemma-3-1b,ED_455,ambiguous,Philosophy,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,1,null,1,0,,,2.0,85,inference,null,null,null,Accurate philosophical assessment.,0.5
+🤖 google/gemma-3-1b,ED_456,clear,Philosophy,True,2,premise,hard,2,0,0,0,0,0,0,1,0,0,0,null,0,0,5.0,,2.0,86,premise,premise,null,null,Skeptics view senses as highly fallible.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_457,clear,Philosophy,True,3,factual,easy,1,1,0,0,0,0,0,0,0,0,0,null,0,0,,,1.0,106,inference,factual,null,null,"Kant's rule is universalizability, not pleasure.",0.1111111111111111
+🤖 google/gemma-3-1b,ED_458,clear,Philosophy,True,3,inference,hard,1,1,1,0,0,1,1,1,0,0,0,0,1,0,1.0,1.0,2.0,73,inference,inference,null,null,Solipsism does not logically mandate violence.,0.5
+🤖 google/gemma-3-1b,ED_459,ambiguous,Philosophy,True,4,arithmetic,easy,2,0,0,0,0,0,1,1,0,0,0,null,0,0,4.0,6.0,1.0,76,arithmetic,arithmetic,null,null,"2,152 years.",0.2222222222222222
+🤖 google/gemma-3-1b,ED_460,clear,Linguistics,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,1,null,null,1,3.0,6.0,7.0,59,factual,null,,,Accurate linguistic representation.,0.5714285714285714
+🤖 google/gemma-3-1b,ED_461,ambiguous,Linguistics,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,1,null,1,0,3.0,6.0,2.0,69,inference,null,null,null,Accurate linguistic/philosophical representation.,0.5
+🤖 google/gemma-3-1b,ED_462,clear,Linguistics,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,1,null,null,1,,,6.0,69,inference,null,,,Accurate linguistic representation.,0.7142857142857143
+🤖 google/gemma-3-1b,ED_463,clear,Linguistics,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,2.0,52,factual,null,null,null,Accurate linguistic representation.,0.25
+🤖 google/gemma-3-1b,ED_464,clear,Linguistics,True,1,factual,medium,1,1,0,0,0,0,1,1,0,1,0,null,1,0,,,2.0,96,factual,factual,null,null,"It claims language influences thought, not biological IQ.",0.5555555555555556
+🤖 google/gemma-3-1b,ED_465,clear,Linguistics,True,2,arithmetic,medium,2,0,0,0,0,0,0,0,0,0,1,null,null,1,3.0,6.0,7.0,80,factual,arithmetic,,,It contains 3 morphemes.,0.25
+🤖 google/gemma-3-1b,ED_466,clear,Linguistics,True,3,factual,easy,1,1,0,0,0,0,0,1,0,0,1,null,null,0,,,7.0,72,factual,factual,,,Pragmatics is the study of language in context.,0.375
+🤖 google/gemma-3-1b,ED_467,trick,Linguistics,True,4,arithmetic,medium,2,0,0,0,0,0,0,0,0,0,0,null,null,0,,,7.0,30,factual,arithmetic,,,It contains 11 syllables.,0.0
+🤖 google/gemma-3-1b,ED_468,clear,Music Theory,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,1,null,1,0,3.0,6.0,2.0,59,factual,null,null,null,Accurate musical theory representation.,0.5
+🤖 google/gemma-3-1b,ED_469,clear,Music Theory,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,0,0,,,2.0,38,factual,null,null,null,Accurate musical theory representation.,0.25
+🤖 google/gemma-3-1b,ED_470,clear,Music Theory,False,null,null,easy,2,1,1,0,0,1,0,0,null,1,1,null,1,1,,,2.0,43,inference,null,null,null,Accurate musical theory representation.,0.75
+🤖 google/gemma-3-1b,ED_471,clear,Music Theory,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,1,0,5.0,6.0,2.0,47,factual,null,null,null,Accurate musical theory representation.,0.375
+🤖 google/gemma-3-1b,ED_472,clear,Music Theory,True,4,arithmetic,easy,1,1,0,0,0,0,0,0,0,0,0,null,0,0,,,1.0,44,factual,arithmetic,null,null,It spans exactly 2 beats.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_473,clear,Music Theory,True,4,factual,easy,1,1,1,0,0,1,0,1,0,0,0,0,null,0,,,6.0,29,factual,factual,,,Lydian features a raised fourth.,0.3333333333333333
+🤖 google/gemma-3-1b,ED_474,trick,Music Theory,True,4,arithmetic,medium,2,0,0,0,0,0,0,0,0,1,0,null,0,0,,,1.0,46,factual,arithmetic,null,null,8 semitones.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_475,clear,Music Theory,True,4,factual,medium,2,0,0,0,0,0,0,1,0,0,0,null,1,0,4.0,6.0,2.0,37,factual,factual,null,null,A minor piece ends on a major chord.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_476,clear,Architecture,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,1,0,,,2.0,44,factual,null,null,null,Accurate architectural theory.,0.375
+🤖 google/gemma-3-1b,ED_477,clear,Architecture,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,1,0,5.0,,2.0,32,factual,null,null,null,Accurate architectural theory.,0.375
+🤖 google/gemma-3-1b,ED_478,clear,Architecture,False,null,null,easy,2,1,0,0,1,0,0,0,null,0,0,0,1,0,4.0,6.0,2.0,36,factual,null,null,null,Accurate architectural theory.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_479,ambiguous,Architecture,False,null,null,hard,3,0,1,1,0,1,0,0,null,0,0,null,1,0,3.0,6.0,2.0,53,factual,null,null,null,Accurate architectural assessment.,0.25
+🤖 google/gemma-3-1b,ED_480,clear,Architecture,True,1,premise,easy,2,0,0,0,0,0,1,0,0,0,0,null,0,0,5.0,6.0,2.0,62,inference,premise,null,null,Tensile structures require high TENSILE strength.,0.1111111111111111
+🤖 google/gemma-3-1b,ED_481,trick,Architecture,True,3,inference,medium,1,1,0,0,0,0,0,1,0,0,0,null,1,0,,,2.0,78,inference,inference,null,null,Aluminum has terrible thermal mass.,0.3333333333333333
+🤖 google/gemma-3-1b,ED_482,clear,Architecture,True,3,premise,medium,1,1,0,0,0,0,0,0,0,0,0,null,0,0,4.0,6.0,2.0,74,inference,premise,null,null,"He advocated for ribbon windows, not ornamentation.",0.1111111111111111
+🤖 google/gemma-3-1b,ED_483,clear,Architecture,True,4,inference,easy,2,0,0,0,0,0,0,0,0,0,0,null,0,0,3.0,1.0,2.0,64,factual,inference,null,null,Removing the keystone destroys the arch.,0.0
+🤖 google/gemma-3-1b,ED_484,clear,Formal Logic,False,null,null,easy,2,1,1,0,0,1,0,0,null,0,0,null,0,1,3.0,1.0,1.0,56,inference,null,null,null,Accurate logical representation.,0.375
+🤖 google/gemma-3-1b,ED_485,clear,Formal Logic,False,null,null,medium,1,0,1,1,0,1,0,0,null,0,0,null,0,0,3.0,7.0,2.0,70,inference,null,null,null,Accurate logical representation.,0.125
+🤖 google/gemma-3-1b,ED_486,clear,Formal Logic,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,0,null,1,0,,,2.0,82,inference,null,null,null,Accurate logical representation.,0.375
+🤖 google/gemma-3-1b,ED_487,clear,Formal Logic,False,null,null,easy,2,1,0,0,1,0,0,0,null,0,0,1,0,0,1.0,7.0,2.0,59,inference,null,null,null,Accurate logical representation.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_488,clear,Formal Logic,True,1,factual,easy,1,1,0,0,0,0,1,0,0,0,0,null,0,0,1.0,6.0,1.0,75,inference,factual,null,null,Affirming the consequent is a formal fallacy.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_489,clear,Formal Logic,True,3,arithmetic,medium,2,0,1,1,0,1,0,1,0,0,0,0,0,0,,,1.0,65,arithmetic,arithmetic,null,null,"8 rows (2^n, not n^2).",0.2
+🤖 google/gemma-3-1b,ED_490,clear,Formal Logic,True,3,factual,easy,1,1,0,0,0,0,0,1,0,0,1,null,0,0,,,2.0,57,factual,factual,null,null,A tautology is always TRUE.,0.3333333333333333
+🤖 google/gemma-3-1b,ED_491,trick,Formal Logic,True,4,arithmetic,medium,1,1,1,0,0,1,0,0,0,0,0,0,0,0,,,1.0,0,null,arithmetic,null,null,There are 4 operators.,0.2
+🤖 google/gemma-3-1b,ED_492,clear,Game Theory,False,null,null,medium,2,1,1,0,0,1,0,0,null,0,1,null,0,0,,,2.0,49,inference,null,null,null,Accurate game theory analysis.,0.375
+🤖 google/gemma-3-1b,ED_493,clear,Game Theory,False,null,null,medium,2,1,1,0,0,1,0,0,null,1,1,null,null,1,,,7.0,53,inference,null,,,Accurate game theory analysis.,0.7142857142857143
+🤖 google/gemma-3-1b,ED_494,clear,Game Theory,False,null,null,hard,2,1,1,0,0,1,0,0,null,0,1,null,1,1,,,2.0,64,inference,null,null,null,Accurate game theory analysis.,0.625
+🤖 google/gemma-3-1b,ED_495,ambiguous,Game Theory,False,null,null,hard,3,0,0,0,1,0,0,0,null,0,0,0,0,0,,,2.0,62,inference,null,null,null,Accurate game theory assessment.,0.0
+🤖 google/gemma-3-1b,ED_496,clear,Game Theory,True,4,inference,easy,2,0,1,1,0,1,0,1,0,0,0,0,null,0,4.0,6.0,7.0,65,inference,inference,,,Player 2 cannot reject in a Dictator Game.,0.2222222222222222
+🤖 google/gemma-3-1b,ED_497,clear,Game Theory,True,2,premise,hard,2,0,0,0,0,0,0,0,0,0,1,null,null,0,5.0,6.0,7.0,82,inference,premise,,,The game must be infinite or of unknown duration.,0.125
+🤖 google/gemma-3-1b,ED_498,clear,Game Theory,True,4,inference,medium,2,0,0,0,0,0,0,1,0,0,0,null,null,0,,,7.0,65,inference,inference,,,Hawk is not strictly dominant.,0.125
+🤖 google/gemma-3-1b,ED_499,clear,Game Theory,True,2,premise,easy,1,1,1,0,0,1,0,1,0,1,0,0,0,0,4.0,6.0,2.0,75,premise,premise,null,null,The resource must be non-excludable and rivalrous.,0.4
