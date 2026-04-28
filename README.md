@@ -115,6 +115,10 @@ Each item presents a reasoning chain (either flawed or clean) and elicits a stru
 | gpt-oss-120b | **0.0308** | 0.2649 | +0.070 | 2.5% | 0.0% | 1.5% | −0.03 |
 | gemma-3-1b | 0.2996 | 0.4010 | −0.150 | 14.8% | 58.5% | 0.0% | +0.00 |
 
+<img width="5970" height="1320" alt="image" src="https://github.com/user-attachments/assets/65c7cd67-55d1-4fd0-891c-2532aace3c1c" />
+<img width="5970" height="1320" alt="image" src="https://github.com/user-attachments/assets/564bd5ab-5577-43bb-9765-0639edac96c4" />
+<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/d7e32ad4-1132-4018-b04d-aca8fff477b7" />
+
 ---
 
 ## Key Findings
@@ -161,4 +165,4 @@ argus/
 
 ---
 
-*ARGUS was submitted to the Google DeepMind × Kaggle AGI Evaluation Hackathon (2025).*
+*ARGUS was submitted to the Google DeepMind × Kaggle AGI Evaluation Hackathon (2026).*
